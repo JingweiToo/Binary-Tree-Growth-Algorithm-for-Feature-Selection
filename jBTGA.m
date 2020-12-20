@@ -77,12 +77,12 @@ while t <= max_Iter
     fit(i) = fun(feat,label,X(i,:),HO);
   end
   for i = N1 + N2 + 1 : N
-    for d=1:dim
+    for d = 1:dim
       X(i,d)=randi([0,1]);
     end
     fit(i)=fun(feat,label,X(i,:),HO);
   end
-  for i=1:N4
+  for i = 1:N4
     idx_B = randi([1,N1]);
     Xbest = X(idx_B,:);
     mask  = randi([0,1],1,dim);
