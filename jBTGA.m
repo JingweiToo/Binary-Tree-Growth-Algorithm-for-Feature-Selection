@@ -78,9 +78,9 @@ while t <= max_Iter
   end
   for i = N1 + N2 + 1 : N
     for d = 1:dim
-      X(i,d)=randi([0,1]);
+      X(i,d) = randi([0,1]);
     end
-    fit(i)=fun(feat,label,X(i,:),HO);
+    fit(i) = fun(feat,label,X(i,:),HO);
   end
   for i = 1:N4
     idx_B = randi([1,N1]);
