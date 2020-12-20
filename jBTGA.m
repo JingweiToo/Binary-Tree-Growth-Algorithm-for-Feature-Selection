@@ -1,7 +1,7 @@
 function [sFeat,Sf,Nf,curve] = jBTGA(feat,label,N,max_Iter,N1,N2,...
   N4,theta,lambda,HO)
 
-if N4 > N1+N2
+if N4 > N1 + N2
   N4 = N1 + N2;
 end
 fun = @jFitnessFunction; 
