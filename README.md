@@ -1,8 +1,8 @@
 # Binary Tree Growth Algorithm for Feature Selection
 
 [![View Binary Tree Growth Algorithm for Feature Selection on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/78498-binary-tree-growth-algorithm-for-feature-selection)
-[![License](https://img.shields.io/badge/license-BSD_3-yellow.svg)](https://github.com/JingweiToo/Binary-Tree-Growth-Algorithm-for-Feature-Selection/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/badge/release-1.3-green.svg)](https://github.com/JingweiToo/Binary-Tree-Growth-Algorithm-for-Feature-Selection)
+[![License](https://img.shields.io/badge/license-BSD_3-yellow.svg)]
+[![GitHub release](https://img.shields.io/badge/release-1.3-green.svg)]
 
 ![Wheel](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/9321f2c4-a795-454e-9680-8c316072c42e/314ca7d9-da3d-4424-9e6d-ad7f329fb70f/images/1595415891.JPG)
 
