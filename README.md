@@ -1,31 +1,35 @@
 # Binary Tree Growth Algorithm for Feature Selection
 
+[![View Binary Tree Growth Algorithm for Feature Selection on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/78498-binary-tree-growth-algorithm-for-feature-selection)
+[![License](https://img.shields.io/badge/license-BSD_3-yellow.svg)](https://github.com/JingweiToo/Binary-Tree-Growth-Algorithm-for-Feature-Selection/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/badge/release-1.3-green.svg)](https://github.com/JingweiToo/Binary-Tree-Growth-Algorithm-for-Feature-Selection)
+
 ![Wheel](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/9321f2c4-a795-454e-9680-8c316072c42e/314ca7d9-da3d-4424-9e6d-ad7f329fb70f/images/1595415891.JPG)
 
 
 ## Introduction
 
 * This toolbox offers a Binary Tree Growth Algorithm ( BTGA )  
-* The < Main.m file > illustrates the example of how BTGA can solve the feature selection problem using benchmark data-set. 
+* The `Main` file illustrates the example of how BTGA can solve the feature selection problem using benchmark data-set. 
 
 
 ## Input
-* *feat*     : feature vector ( Instances *x* Features )
-* *label*    : label vector ( Instances *x* 1 )
-* *N*        : number of trees
-* *max_Iter* : maximum number of iterations
-* *N1*       : number of trees in first group
-* *N2*       : number of trees in second group
-* *N4*       : number of trees in fourth group
-* *theta*    : tree reduction rate
-* *lambda*   : parameter controls nearest tree
+* *`feat`*     : feature vector ( Instances *x* Features )
+* *`label`*    : label vector ( Instances *x* 1 )
+* *`N`*        : number of trees
+* *`max_Iter`* : maximum number of iterations
+* *`N1`*       : number of trees in first group
+* *`N2`*       : number of trees in second group
+* *`N4`*       : number of trees in fourth group
+* *`theta`*    : tree reduction rate
+* *`lambda`*   : parameter controls nearest tree
 
 
 ## Output
-* *sFeat*    : selected features
-* *Sf*       : selected feature index
-* *Nf*       : number of selected features
-* *curve*    : convergence curve
+* *`sFeat`*    : selected features
+* *`Sf`*       : selected feature index
+* *`Nf`*       : number of selected features
+* *`curve`*    : convergence curve
 
 
 ### Example
